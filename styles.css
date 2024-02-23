@@ -93,8 +93,34 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    
    
 }
+
+.sedans{
+    color: var(--Bright-orange);
+}
+.suvs{
+    color: var(--Dark-cyan);
+}
+.luxary{
+    color: var(--Very-dark-cyan);
+}
+
+.btn:hover{
+    background-color: transparent;
+    
+}
+
+.sedans:hover,
+.suvs:hover,
+.luxary:hover{
+    color: white;
+}
+
+
+
 @media (max-width: 900px) {
     
     main{
